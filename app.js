@@ -4,9 +4,8 @@ var diceDom = document.querySelector(".dice");
 var activePlayer;
 var scores;
 var roundScore;
-
 initGame();
-
+console.log('123');
 function initGame(){
   isNewGame = true;
   activePlayer = 0;
